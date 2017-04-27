@@ -1,0 +1,40 @@
+/*Admin modal window styles*/
+#simplemodal-overlay {background-color:#000;}
+#simplemodal-container {background-color:#fff;border:8px solid #444;padding:12px;}
+
+#adminform {width: 550px;}
+#adminform label {width: 250px;}
+
+#adminform label.error, #adminform input.submit {margin-left: 20px;}
+label.error {float: none;color: red;padding-left: .25em;vertical-align: top;}
+
+p {clear: both;}
+
+.submit {margin-left: 12em;}
+
+em {font-weight: bold;padding-right: 1em;vertical-align: top;}
+
+.gallery li {float: left;width: 50%;}
+
+/* Begin Nav Bar Styling */
+#nav {width: 100%;float: left;margin: 0 0 1.5em 0;padding: 0;list-style: none;background-color: #f2f2f2;border-bottom: 1px solid #ccc;border-top: 1px solid #ccc; }
+#nav li {float: left;}
+#nav li a {display: block;padding: 8px 15px;text-decoration: none;font-weight: bold;color: #069;border-right: 1px solid #ccc;}
+#nav li a:hover, #nav .active {color: #c00;background-color: #fff;}
+.subnav {margin-bottom:3em;}
+/* End nav bar styling. */
+     
+body.admin {background-color: #ccc;font: small/1.5 Arial, Helvetica, sans-serif;}
+   
+#wrap {	width: 975px;margin: 0 auto;background-color: #fff;padding:15px 15px 300px 15px;}
+
+h1.admin {font-size: 1.5em;padding: 1em 8px;color: #333;background-color: #069;margin: 0;}
+
+/*controls the dashboard homepage style*/
+ table.dashboard {border-width: 0 0 1px 1px;border-spacing: 0;border-collapse: collapse;border-style: solid;}
+.dashboard td {vertical-align:text-top;margin: 0;padding: 15px;border-width: 1px 1px 0 0;border-style: solid;}
+.display td {border-width:0;}
+.adminlogo {float:left;margin-right:2em;}
+/*ends the dashboard homepage style*/
+
+.gmap {height: 330px;width: 100%;margin: 0px;padding: 0px;}
